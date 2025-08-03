@@ -14,7 +14,7 @@ const Hero = () => {
   const achievements = [
     { number: "10+", label: "Years Experience", icon: <Star size={16} /> },
     { number: "50+", label: "Projects Delivered", icon: <Code size={16} /> },
-    { number: "4", label: "Industry Domains", icon: <Smartphone size={16} /> }
+    { number: "6", label: "Industry Domains", icon: <Smartphone size={16} /> }
   ];
 
   return (
@@ -38,7 +38,7 @@ const Hero = () => {
             
             {/* Main Heading */}
             <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
+              <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-6">
                 Hey,{" "}
                 <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent animate-glow">
                   there
@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
             
             <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
-              <div className="text-6xl md:text-8xl font-black mb-6 relative">
+              <div className="text-4xl md:text-6xl font-black mb-6 relative">
                 I AM<br />
                 <span className="relative text-secondary">
                   BHUSHAN
@@ -57,10 +57,10 @@ const Hero = () => {
             </div>
             
             <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
-              <div className="text-2xl md:text-3xl font-bold text-secondary mb-2">
+              <div className="text-1xl md:text-2xl font-bold text-secondary mb-2">
                 MOBILE APP & WEB
               </div>
-              <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-6">
+              <div className="text-1xl md:text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-6">
                 DEVELOPER
               </div>
             </div>

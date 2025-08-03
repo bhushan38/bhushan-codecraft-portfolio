@@ -41,7 +41,7 @@ const Experience = () => {
       color: "text-accent"
     },
     {
-      number: "4",
+      number: "6",
       label: "Industry Domains",
       icon: <Building size={24} />,
       color: "text-secondary"

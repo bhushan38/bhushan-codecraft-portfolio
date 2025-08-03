@@ -12,9 +12,9 @@ const About = () => {
       color: "bg-primary/10 text-primary"
     },
     {
-      title: "4 Domains",
+      title: "6 Domains",
       subtitle: "Industry Experience",
-      description: "Banking, Insurance, Pharma, Social Media",
+      description: "Banking, Insurance, Pharma, Retail and eCommerce, Health, Social Media",
       icon: <Award size={24} />,
       color: "bg-accent/10 text-accent"
     },
