@@ -166,7 +166,7 @@ const Contact = () => {
             </div>
 
             {/* Quick Facts */}
-            <Card className="bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/20 backdrop-blur-sm elegant-shadow">
+            {/* <Card className="bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/20 backdrop-blur-sm elegant-shadow">
               <CardContent className="p-6">
                 <h4 className="font-semibold mb-4 flex items-center gap-2">
                   <Sparkles size={18} className="text-primary" />
@@ -186,10 +186,10 @@ const Contact = () => {
                   ))}
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
 
             {/* Availability Status */}
-            <Card className="mt-6 bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-500/20 elegant-shadow">
+            {/* <Card className="mt-6 bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-500/20 elegant-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center gap-4">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-glow"></div>
@@ -201,18 +201,18 @@ const Contact = () => {
                   </div>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
 
           {/* Contact Form */}
-          <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
+          {/* <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <Card className="elegant-shadow hover:shadow-xl smooth-transition bg-card/50 backdrop-blur-sm border border-border/50">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-6 flex items-center gap-3">
                   <Send size={24} className="text-primary" />
                   Send Message
-                </h3>
-                <form onSubmit={handleSubmit} className="space-y-6">
+                </h3> */}
+                {/* <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium mb-2">
                       Name *
@@ -274,10 +274,10 @@ const Contact = () => {
                       </>
                     )}
                   </Button>
-                </form>
+                </form> */}
 
                 {/* Form Benefits */}
-                <div className="mt-6 p-4 rounded-lg bg-muted/30">
+                {/* <div className="mt-6 p-4 rounded-lg bg-muted/30">
                   <h5 className="font-medium mb-2 text-sm">What happens next?</h5>
                   <ul className="text-sm text-muted-foreground space-y-1">
                     <li className="flex items-center gap-2">
@@ -293,10 +293,10 @@ const Contact = () => {
                       Detailed project proposal
                     </li>
                   </ul>
-                </div>
-              </CardContent>
+                </div> */}
+              {/* </CardContent>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
